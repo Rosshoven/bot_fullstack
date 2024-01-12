@@ -12,17 +12,17 @@ import Login from './login';
 
 export default function Home() {
 
-    const inputStyle = {
-                        width: '90%',
-                        backgroundColor: 'pink',
-                        borderRadius: '.5rem',
-                        overflow: 'auto',                           
-                        alignItems: 'center',
-                        margin: '4%',
-                        padding: '0',
-                        autocomplete: 'off',
-                        border: '1px solid black'
-    }
+    // const inputStyle = {
+    //                     width: '90%',
+    //                     backgroundColor: 'pink',
+    //                     borderRadius: '.5rem',
+    //                     overflow: 'auto',                           
+    //                     alignItems: 'center',
+    //                     margin: '4%',
+    //                     padding: '0',
+    //                     autocomplete: 'off',
+    //                     border: '1px solid black'
+    // }
 
     const audioStyle = {
           width: '90%',
