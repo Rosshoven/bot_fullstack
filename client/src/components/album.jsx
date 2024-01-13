@@ -39,10 +39,14 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
 
     return (
 
-    <div style={{display: 'flex', 
-    flexDirection: 'row', justifyContent: 'center', alignItems: 'center', alignContent:'space-evenly', 
-    flexWrap: 'wrap', 
-    margin: '9rem auto'
+    <div style={{
+        display: 'flex', 
+        flexDirection: 'row', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        alignContent:'space-evenly', 
+        flexWrap: 'wrap', 
+        margin: '9rem auto'
     }}>
             
 

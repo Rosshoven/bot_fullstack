@@ -86,7 +86,8 @@ export default function Login() {
             height: '100vh' }}
             >
 
-            <form onSubmit={handleSubmit} autoComplete="off">
+            <form onSubmit={handleSubmit} 
+                  autoComplete="off">
 
                 <div className="card-body" id="accountCard">
                     
@@ -96,21 +97,19 @@ export default function Login() {
                     type="submit" 
                     style={{ 
                         margin: '1% auto', 
-                        // padding: '2%', 
-                        // backgroundColor: 'black', 
-                        // color: 'black',
                         borderRadius: '1rem', 
                         fontFamily: 'Forum, cursive', 
                         fontSize: '1rem', 
-                        // fontWeight: 'bold', 
                         display: 'flex', 
-                        justifyContent: 'center' }}
+                        justifyContent: 'center',
+                     }}
                         >Login</button>
      
                         <input
                             style={inputStyle}
-                            id="loginUserName"
+                            id="userName"
                             type="text"
+                            autoComplete="off"
                             placeholder="Enter Username"
                             value={values.userName}
                             onChange={handleChange}
@@ -121,8 +120,9 @@ export default function Login() {
                         {/* <label htmlFor="password">Password</label> */}
                         <input
                             style={inputStyle}
-                            id="loginPassword"
+                            id="password"
                             type="password"
+                            autoComplete="off"
                             placeholder="Enter password"
                             value={values.password}
                             onChange={handleChange}
