@@ -1,6 +1,6 @@
 import React from 'react';
 import QuoteBlock from './quote-block';
-import '../index.css'; 
+// import '../index.css'; 
 
 
 export default function About() {

@@ -42,7 +42,8 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
     <div style={{display: 'flex', 
     flexDirection: 'row', justifyContent: 'center', alignItems: 'center', alignContent:'space-evenly', 
     flexWrap: 'wrap', 
-    margin: '9rem auto'}}>
+    margin: '9rem auto'
+    }}>
             
 
         {/* Album Front/Back */}    

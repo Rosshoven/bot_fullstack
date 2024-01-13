@@ -12,7 +12,12 @@ export default function If() {
 
     return(
 
-    <div style={{backgroundColor: '#d83c', padding: '.1rem'}}>
+    <div style={{
+        backgroundColor: '#d83c', 
+        backgroundSize: 'cover', 
+        height: '100vh',
+        paddingTop: '.1rem',
+        }}>
         <Album image={IF} 
                description={`If it's the last thing we do Album Cover`} 
                albumTitle={`If it's the last thing we do...`}
