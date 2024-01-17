@@ -1,3 +1,7 @@
+require("dotenv").config();
+
+// var dal = require('./dal.js')
+
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3001;

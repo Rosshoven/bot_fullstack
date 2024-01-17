@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-export default function Album( { image, description, albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9, songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border}) { 
+export default function Album( { image, description, albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9, songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor}) { 
 
 
     const audioStyle = {
@@ -46,7 +46,13 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
         alignItems: 'center', 
         alignContent:'space-evenly', 
         flexWrap: 'wrap', 
-        margin: '9rem auto'
+        margin: '0',
+        backgroundColor: pageBackgroundColor,
+        backgroundSize: 'cover', 
+        width: '100%',
+        height: '100vh',
+        paddingTop: '.1rem',
+        position: 'relative',
     }}>
             
 

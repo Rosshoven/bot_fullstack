@@ -12,12 +12,7 @@ export default function If() {
 
     return(
 
-    <div style={{
-        backgroundColor: '#d83c', 
-        backgroundSize: 'cover', 
-        height: '100vh',
-        paddingTop: '.1rem',
-        }}>
+    <div>
         <Album image={IF} 
                description={`If it's the last thing we do Album Cover`} 
                albumTitle={`If it's the last thing we do...`}
@@ -42,16 +37,23 @@ export default function If() {
                track5={GetInLine}
                backgroundColor={'silver'}
                border={'green 2px solid'}
+               pageBackgroundColor={'#d83c'}
                />
                <p style={{
-                  fontSize: '1.6rem', 
-                  color: 'transparent', 
-                  display: 'flex', 
-                  justifyContent: 'right', 
-                  alignContent: 'top', 
-                  marginRight: '5%', 
-                  fontFamily: 'Rock Salt, cursive'
-            //    marginLeft: '65%', 
+                display: 'flex', 
+                // flexDirection: 'row', 
+                justifyContent: 'right', 
+                paddingRight: '5%', 
+                alignContent: 'center', 
+                // flexWrap: 'wrap', 
+                // marginTop: '0',
+                backgroundColor: '#d83c',
+                // backgroundSize: 'cover', 
+                width: '100%',
+                height: '10vh',
+                // paddingTop: '.1rem',
+                // position: 'relative',
+                fontFamily: 'Rock Salt, cursive',
             }} 
                onMouseEnter={(e) => e.target.style.color = 'red'}
                onMouseLeave={(e) => e.target.style.color = 'transparent'}

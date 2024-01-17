@@ -12,18 +12,6 @@ import Login from './login';
 
 export default function Home() {
 
-    // const inputStyle = {
-    //                     width: '90%',
-    //                     backgroundColor: 'pink',
-    //                     borderRadius: '.5rem',
-    //                     overflow: 'auto',                           
-    //                     alignItems: 'center',
-    //                     margin: '4%',
-    //                     padding: '0',
-    //                     autocomplete: 'off',
-    //                     border: '1px solid black'
-    // }
-
     const audioStyle = {
           width: '90%',
           height: '90%', 
@@ -61,7 +49,7 @@ export default function Home() {
         <div id="topRight" className="box">
         <img src={BOT_Gun} alt="Boys On Trial T-Shirt Logo" 
               style={{
-                maxHeight: '100%'
+                maxHeight: '100%', 
               }} />
         </div>
 
