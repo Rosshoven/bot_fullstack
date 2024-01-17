@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e0169f1.css",
+    "main.js": "/static/js/main.f65eed93.js",
+    "static/media/LookLeft.mp3": "/static/media/LookLeft.4f5ff4982fab3c7ec227.mp3",
+    "static/media/Fireplay.mp3": "/static/media/Fireplay.fccbd7260c2f2a06dbab.mp3",
+    "static/media/SaySomething.mp3": "/static/media/SaySomething.a16d9ad5c67cd5e9fe8c.mp3",
+    "static/media/GetInLine.mp3": "/static/media/GetInLine.9b242b105748a09cb066.mp3",
+    "static/media/Logo_Pink.png": "/static/media/Logo_Pink.55e4301049b14d67135f.png",
+    "static/media/Rex.mp3": "/static/media/Rex.da404882648c977d0524.mp3",
+    "static/media/BOT_Gun.png": "/static/media/BOT_Gun.7598c2d1e3e4560480b0.png",
+    "static/media/BOT_Logo.png": "/static/media/BOT_Logo.e4c23763c1006e959fe9.png",
+    "static/media/Dog_Motorcycle.png": "/static/media/Dog_Motorcycle.13f0b2fa24d043121bb4.png",
+    "static/media/IF.png": "/static/media/IF.5e53de3262b17d79ba46.png",
+    "static/media/GuanCov.jpg": "/static/media/GuanCov.6268bb105e04b1916639.jpg",
+    "static/media/Pic_5.jpeg": "/static/media/Pic_5.f658354528fdb3046f73.jpeg",
+    "static/media/Pic_4.jpeg": "/static/media/Pic_4.b39c3a129b39b02c4761.jpeg",
+    "static/media/Pic_2.jpeg": "/static/media/Pic_2.794723d58cd2cef0e298.jpeg",
+    "static/media/Pic_3.jpeg": "/static/media/Pic_3.8b4840077698ba3d3c93.jpeg",
+    "static/media/Walking.jpg": "/static/media/Walking.f2adfcb3a7013d8b39ce.jpg",
+    "static/media/Pic_6.jpeg": "/static/media/Pic_6.d7d26a86a9f3bf3b88b1.jpeg",
+    "static/media/Pic_1.jpeg": "/static/media/Pic_1.d96cb93b4e5c95b2b1df.jpeg",
+    "static/media/Co.jpeg": "/static/media/Co.bc1a02c6ebb68b77023c.jpeg",
+    "static/media/C_A.jpeg": "/static/media/C_A.85d8e0837128b1b90247.jpeg",
+    "index.html": "/index.html",
+    "main.6e0169f1.css.map": "/static/css/main.6e0169f1.css.map",
+    "main.f65eed93.js.map": "/static/js/main.f65eed93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e0169f1.css",
+    "static/js/main.f65eed93.js"
+  ]
+}
