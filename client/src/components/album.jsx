@@ -51,7 +51,7 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
         backgroundSize: 'cover', 
         width: '100%',
         height: '100vh',
-        paddingTop: '.1rem',
+        paddingTop: '1rem',
         position: 'relative',
     }}>
             

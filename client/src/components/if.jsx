@@ -1,4 +1,5 @@
 // import AudioPlayer from 'react-h5-audio-player';
+import { useState } from 'react';
 import 'react-h5-audio-player/lib/styles.css';
 import Album from './album';
 import IF from '../images/IF.png';
@@ -9,7 +10,7 @@ import SaySometing from '../tracks/SaySomething.mp3';
 import GetInLine from '../tracks/GetInLine.mp3';
 
 export default function If() {
-
+    const [isHovered, setIsHovered] = useState(false);
     return(
 
     <div>
@@ -46,7 +47,7 @@ export default function If() {
                 paddingRight: '5%', 
                 alignContent: 'center', 
                 // flexWrap: 'wrap', 
-                // marginTop: '0',
+                paddingTop: '1rem',
                 backgroundColor: '#d83c',
                 // backgroundSize: 'cover', 
                 width: '100%',
@@ -54,9 +55,12 @@ export default function If() {
                 // paddingTop: '.1rem',
                 // position: 'relative',
                 fontFamily: 'Rock Salt, cursive',
+                color: isHovered ? 'red' : 'transparent',
             }} 
-               onMouseEnter={(e) => e.target.style.color = 'red'}
-               onMouseLeave={(e) => e.target.style.color = 'transparent'}
+            //    onMouseEnter={(e) => e.target.style.color = 'red'}
+            //    onMouseLeave={(e) => e.target.style.color = 'transparent'}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
                >...it was</p>
     </div>           
       
