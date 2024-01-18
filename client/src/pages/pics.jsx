@@ -6,6 +6,11 @@ import Pic_5 from '../images/Pic_5.jpeg';
 import Pic_6 from '../images/Pic_6.jpeg';
 import C_A from '../images/C_A.jpeg';
 import Co from '../images/Co.jpeg';
+// import Pic_OTS from '../images/Pic_OTS.jpeg';
+import Pic_Police from '../images/Pic_Police.JPG';
+import Pic_Red_Lion from '../images/Pic_Red_Lion.JPG';
+import Pic_SubT from '../images/Pic_SubT.JPG';
+import Pic_SubT_2 from '../images/Pic_SubT_2.JPG';
 import Logo_Pink from '../images/Logo_Pink.png';
 import PhotoCarousel from '../components/carousel';
 
@@ -21,6 +26,10 @@ export default function Pics() {
       `${Pic_6}`,
       `${C_A}`,
       `${Co}`,
+      `${Pic_Police}`,
+      `${Pic_Red_Lion}`,
+      `${Pic_SubT}`,
+      `${Pic_SubT_2}`,
     ];
 
   const Background = {

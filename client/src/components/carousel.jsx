@@ -73,7 +73,13 @@ const PhotoCarousel = ({ title, images, interval = 3000 }) => {
             // alignItems: 'center'
             }}>Scroll over pic to pause carousel</h6>    
 
-        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', flexShrink: '1'}}>
+        <div style={{
+            display: 'flex', 
+            flexDirection: 'row', 
+            justifyContent: 'center', 
+            flexWrap: 'wrap', 
+            flexShrink: '1'
+            }}>
             <button className='btn btn-outline-dark' onClick={prevImage} style={buttonStyle}>Prev</button>
             <img src={images[currentIndex]} alt={`${currentIndex + 1}`} 
                 style={{ 
