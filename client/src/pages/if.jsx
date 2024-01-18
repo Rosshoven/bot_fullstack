@@ -39,6 +39,7 @@ export default function If() {
                backgroundColor={'silver'}
                border={'green 2px solid'}
                pageBackgroundColor={'#d83c'}
+               backCoverImage={'transparent'}
                />
                <p style={{
                 display: 'flex', 

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-export default function Album( { image, description, albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9, songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor}) { 
+export default function Album( { image, description, albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9, songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor, backCoverImage}) { 
 
 
     const audioStyle = {
@@ -73,6 +73,7 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
                 boxShadow: '4px 4px 20px rgba(55, 24, 3, 1)',}} 
                 onMouseLeave={() => setBackCover(false)}>
 
+                <img style={coverStyle} src={backCoverImage} alt='back cover'/>
                 <h4>{albumDetail1}</h4>
                 <h4>{albumDetail2}</h4>
                 <h4>{albumDetail3}</h4>
