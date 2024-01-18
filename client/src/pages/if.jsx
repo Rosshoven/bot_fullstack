@@ -1,7 +1,7 @@
 // import AudioPlayer from 'react-h5-audio-player';
 import { useState } from 'react';
 import 'react-h5-audio-player/lib/styles.css';
-import Album from './album';
+import Album from '../components/album';
 import IF from '../images/IF.png';
 import Rex from '../tracks/Rex.mp3';
 import Fireplay from '../tracks/Fireplay.mp3';

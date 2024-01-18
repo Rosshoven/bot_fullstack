@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo_Pink from '../images/Logo_Pink.png';
+// import Logo_Pink from '../images/Logo_Pink.png';
 
 export default function QuoteBlock ({ text, author }) {
 

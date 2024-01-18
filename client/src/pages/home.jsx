@@ -7,8 +7,8 @@ import Rex from '../tracks/Rex.mp3';
 import BOT_Gun from '../images/BOT_Gun.png';
 import Dog_Motorcycle from '../images/Dog_Motorcycle.png';
 // import Walking from '../images/Walking.jpg';
-import CreateAccount from './create-account';
-import Login from './login';
+import CreateAccount from '../components/create-account';
+import Login from '../components/login';
 
 export default function Home() {
 

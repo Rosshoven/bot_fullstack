@@ -7,7 +7,7 @@ import Pic_6 from '../images/Pic_6.jpeg';
 import C_A from '../images/C_A.jpeg';
 import Co from '../images/Co.jpeg';
 import Logo_Pink from '../images/Logo_Pink.png';
-import PhotoCarousel from './carousel';
+import PhotoCarousel from '../components/carousel';
 
 
 export default function Pics() {

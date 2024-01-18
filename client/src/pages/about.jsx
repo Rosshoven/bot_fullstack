@@ -1,5 +1,5 @@
 import React from 'react';
-import QuoteBlock from './quote-block';
+import QuoteBlock from '../components/quote-block';
 // import '../index.css'; 
 
 

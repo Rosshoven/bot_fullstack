@@ -1,4 +1,4 @@
-import Album from './album';
+import Album from '../components/album';
 import Walking from '../images/Walking.jpg'
 
 export default function Schubas() {

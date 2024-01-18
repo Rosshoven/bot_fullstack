@@ -5,7 +5,7 @@ import { useState } from "react";
 // importing the yup schema for formik validation
 import { createSchema } from '../schemas/create-schema';
 // importing the Account Context
-import { useAccountContext } from "./account-context";
+import { useAccountContext } from "../context/account-context";
 import '../grail.css';
 
 // import { Link } from "react-router-dom";

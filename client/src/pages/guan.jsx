@@ -1,4 +1,4 @@
-import Album from "./album";
+import Album from "../components/album";
 import GuanCov from '../images/GuanCov.jpg'
 
 

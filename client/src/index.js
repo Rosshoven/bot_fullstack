@@ -5,18 +5,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import Home from "./components/home";
-import About from "./components/about";
-import Navigation from "./components/navigation";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Navigation from "./pages/navigation";
 import ErrorPage from "./error-page";
-import Pics from "./components/pics";
+import Pics from "./pages/pics";
 import Album from "./components/album";
-import If from "./components/if";
-import Guan from "./components/guan";
+import If from "./pages/if";
+import Guan from "./pages/guan";
 import Grail from '../src/components/grail';
-import Schubas from "./components/schubas";
+import Schubas from "./pages/schubas";
 import CreateAccount from "./components/create-account";
-import { AccountProvider } from "./components/account-context";
+import { AccountProvider } from "./context/account-context";
 
 const router = createBrowserRouter([
   {
