@@ -2,7 +2,11 @@ import { useState } from "react";
 
 
 
-export default function Album( { image, description, albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9, songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor, backCoverImage}) { 
+export default function Album( { image, description, 
+
+    // albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9,
+    
+    songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor, color, backCoverImage}) { 
 
 
     const audioStyle = {
@@ -31,6 +35,7 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
         backgroundColor,
         border,
         boxShadow: '2px 2px 12px rgba(55, 24, 3, 1)',
+        color
     }
 
     
@@ -69,12 +74,24 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
 
          ) : ( 
 
-            <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', alignItems: 'center', width: '400px', height: '400px', marginRight: '1rem', backgroundColor, border, borderRadius: '1.5%', 
+            <div style={{
+                display: 'flex', 
+                flexDirection: 'column', 
+                justifyContent: 'space-evenly', 
+                alignItems: 'left', 
+                width: '400px', 
+                height: '400px', 
+                marginRight: '1rem', 
+                backgroundColor, 
+                border, 
+                borderRadius: '1.5%', 
+                padding: '1rem 0 1rem 0',
                 boxShadow: '4px 4px 20px rgba(55, 24, 3, 1)',}} 
                 onMouseLeave={() => setBackCover(false)}>
 
                 <img style={coverStyle} src={backCoverImage} alt='back cover'/>
-                <h4>{albumDetail1}</h4>
+
+                {/* <h4>{albumDetail1}</h4>
                 <h4>{albumDetail2}</h4>
                 <h4>{albumDetail3}</h4>
                 <h5>{albumDetail4}</h5>
@@ -82,7 +99,7 @@ export default function Album( { image, description, albumTitle, albumDetail1, a
                 <h5>{albumDetail6}</h5>
                 <h6>{albumDetail7}</h6>
                 <h6>{albumDetail8}</h6>
-                <h6>{albumDetail9}</h6>
+                <h6>{albumDetail9}</h6> */}
             </div>
            
            )}

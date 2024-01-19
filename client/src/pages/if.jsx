@@ -3,29 +3,32 @@ import { useState } from 'react';
 import 'react-h5-audio-player/lib/styles.css';
 import Album from '../components/album';
 import IF from '../images/IF.png';
+import IfBack from '../images/IfBack.png'
 import Rex from '../tracks/Rex.mp3';
 import Fireplay from '../tracks/Fireplay.mp3';
 import LookLeft from '../tracks/LookLeft.mp3'
 import SaySometing from '../tracks/SaySomething.mp3';
 import GetInLine from '../tracks/GetInLine.mp3';
 
+
 export default function If() {
     const [isHovered, setIsHovered] = useState(false);
     return(
 
     <div>
-        <Album image={IF} 
+        <Album 
+               image={IF} 
                description={`If it's the last thing we do Album Cover`} 
                albumTitle={`If it's the last thing we do...`}
                albumDetail1={`Recorded by Boys On Trial`}
-               albumDetail2={`@ *Bearfux Troy's in Chicago`}
+               albumDetail2={`At Bearfux Troy's in Chicago`}
                albumDetail3={`Spring 2008`}
                albumDetail4={`Michael.gv`}
                albumDetail5={`Colin.d`}
                albumDetail6={`Ken.b`}
-               albumDetail7={`Masterd By Ken`}
-               albumDetail8={`*Top floor SW corner Kedzie/Armitage`}
-               albumDetail9={`Cover from last soundcheck, Reggie's Rock Room`}
+               albumDetail7={`Mastered by Ken`}
+               albumDetail8={`Cover from last soundcheck, Reggie's Rock Room`}
+               albumDetail9={`Special thanks to our friends xo \u00A0 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ©2008`}
                songTitle1={`Rex`}
                songTitle2={`Fireplay`}
                songTitle3={`Look Left`}
@@ -39,7 +42,7 @@ export default function If() {
                backgroundColor={'silver'}
                border={'green 2px solid'}
                pageBackgroundColor={'#d83c'}
-               backCoverImage={'transparent'}
+               backCoverImage={IfBack}
                />
                <p style={{
                 display: 'flex', 
