@@ -28,7 +28,7 @@ export default function Truth () {
                 border={'white 2px solid'}
                 color={'white'}
                 backCoverImage={TruthBack}
-                audioBorder={'solid 2px white'}
+                audioBorder={'solid 2px hotpink'}
                 coverBorder={'solid 2px white'}
             />
         </>
