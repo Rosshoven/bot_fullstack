@@ -2,8 +2,26 @@ import { useState } from "react";
 
 
 
-export default function Album( { image, description,
-    songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor, color, backCoverImage}) { 
+export default function Album( { 
+                            image, 
+                            description,
+                            songTitle1, 
+                            songTitle2, 
+                            songTitle3, 
+                            songTitle4, 
+                            songTitle5, 
+                            track1, 
+                            track2, 
+                            track3, 
+                            track4, 
+                            track5, 
+                            backgroundColor, 
+                            border, 
+                            pageBackgroundColor, 
+                            color, 
+                            backCoverImage} ) 
+    
+    { 
 
 
     const audioStyle = {

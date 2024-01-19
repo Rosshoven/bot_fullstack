@@ -1,12 +1,14 @@
 import Album from '../components/album';
-import Walking from '../images/Walking.jpg'
+import SchubasBack from '../images/SchubasBack.png'
+import Schubas_cover from '../images/Schubas_cover.JPG'
 
 export default function Schubas() {
 
     return(
 
     <div style={{backgroundColor: 'pink', padding: '.1rem'}}>
-        <Album image={Walking} 
+        <Album 
+               image={Schubas_cover} 
                description={`If it's the last thing we do Album Cover`} 
                albumTitle={`If it's the last thing we do...`}
                albumDetail1={`Recorded by Boys On Trial`}
@@ -28,8 +30,9 @@ export default function Schubas() {
                // track3={}
                // track4={}
                // track5={}
-               backgroundColor={'silver'}
+               backgroundColor={'skyblue'}
                border={'green 2px solid'}
+               backCoverImage={SchubasBack}
                />
                <p style={{fontSize: '2rem', color: 'pink', display: 'flex', justifyContent: 'right', alignContent: 'top', 
             //    marginLeft: '65%', 
