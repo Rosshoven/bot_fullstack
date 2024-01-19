@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-export default function Album( { 
+export default function AlbumFour( { 
                             image, 
                             description,
                             songTitle1, 
@@ -124,8 +124,6 @@ export default function Album( {
             <figcaption>{songTitle4}</figcaption>   
             <audio controls src={track4} style={audioStyle}/>
 
-            <figcaption>{songTitle5}</figcaption>   
-            <audio controls src={track5} style={audioStyle}/>
         </figure>   
 
     </div>

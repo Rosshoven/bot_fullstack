@@ -41,8 +41,8 @@ export default function Navigation() {
             <li><a className="dropdown-item" href="/if">If it's the last thing we do</a></li>
             <li><a className="dropdown-item" href="/guan">¡Guantanamo Boy!</a></li>
             <li><a className="dropdown-item" href="/schubas">Live at Schuba's</a></li>
-            <li><a className="dropdown-item" href="/create-account">Create Account</a></li>
-            <li><a className="dropdown-item" href="/grail">test..Holy Grail</a></li>
+            <li><a className="dropdown-item" href="/truth">Truth & Lies</a></li>
+            {/* <li><a className="dropdown-item" href="/create-account">Create Account</a></li> */}
           </ul>
         </li>
 

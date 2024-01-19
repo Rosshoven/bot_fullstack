@@ -1,7 +1,11 @@
 import Album from '../components/album';
 import SchubasBack from '../images/SchubasBack.png';
-import Schubas_cover from '../images/Schubas_cover.JPG';
-import 
+import Schubas_cover from '../images/Schubas_cover.png';
+import Hey from '../tracks/Hey.mp3';
+import Sugar from '../tracks/Sugar.mp3';
+import Blurry from '../tracks/Blurry.mp3';
+import AddictLive from '../tracks/AddictLive.mp3';
+import RunLive from '../tracks/RunLive.mp3';
 
 export default function Schubas() {
 
@@ -16,15 +20,17 @@ export default function Schubas() {
                songTitle3={`Blurry Faces`}
                songTitle4={`The Addict`}
                songTitle5={`Run (from the city)`}
-               track1={}
-               track2={}
-               track3={}
-               track4={}
-               track5={}
+               track1={Hey}
+               track2={Sugar}
+               track3={Blurry}
+               track4={AddictLive}
+               track5={RunLive}
                pageBackgroundColor={'lightyellow'}
                backgroundColor={'skyblue'}
                border={'black 2px solid'}
                backCoverImage={SchubasBack}
+               coverBorder={'solid 2px black'}
+               audioBorder={'solid 2px black'}
                />
     </div>           
       

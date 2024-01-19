@@ -13,7 +13,7 @@ import Pics from "./pages/pics";
 import Album from "./components/album";
 import If from "./pages/if";
 import Guan from "./pages/guan";
-import Grail from '../src/components/grail';
+import Truth from '../src/pages/truth';
 import Schubas from "./pages/schubas";
 import CreateAccount from "./components/create-account";
 import { AccountProvider } from "./context/account-context";
@@ -54,8 +54,8 @@ const router = createBrowserRouter([
         element: <Guan />
       },
       {
-        path: 'grail',
-        element: <Grail />
+        path: 'truth',
+        element: <Truth />
       },
       {
         path: 'schubas',
