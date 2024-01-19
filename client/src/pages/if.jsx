@@ -19,16 +19,16 @@ export default function If() {
         <Album 
                image={IF} 
                description={`If it's the last thing we do Album Cover`} 
-               albumTitle={`If it's the last thing we do...`}
-               albumDetail1={`Recorded by Boys On Trial`}
-               albumDetail2={`At Bearfux Troy's in Chicago`}
-               albumDetail3={`Spring 2008`}
-               albumDetail4={`Michael.gv`}
-               albumDetail5={`Colin.d`}
-               albumDetail6={`Ken.b`}
-               albumDetail7={`Mastered by Ken`}
-               albumDetail8={`Cover from last soundcheck, Reggie's Rock Room`}
-               albumDetail9={`Special thanks to our friends xo \u00A0 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ©2008`}
+            //    albumTitle={`If it's the last thing we do...`}
+            //    albumDetail1={`Recorded by Boys On Trial`}
+            //    albumDetail2={`At Bearfux Troy's in Chicago`}
+            //    albumDetail3={`Spring 2008`}
+            //    albumDetail4={`Michael.gv`}
+            //    albumDetail5={`Colin.d`}
+            //    albumDetail6={`Ken.b`}
+            //    albumDetail7={`Mastered by Ken`}
+            //    albumDetail8={`Cover from last soundcheck, Reggie's Rock Room`}
+            //    albumDetail9={`Special thanks to our friends xo \u00A0 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ©2008`}
                songTitle1={`Rex`}
                songTitle2={`Fireplay`}
                songTitle3={`Look Left`}

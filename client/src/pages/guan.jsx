@@ -16,7 +16,7 @@ export default function Guan() {
                 image={GuanCov}
                 backgroundColor={'black'}
                 backCoverImage={GuanBack}
-                pageBackgroundColor={'black'}
+                pageBackgroundColor={'#ffcccc'}
                 songTitle1={`Coward or Hero`}
                 songTitle2={`Run (from the city)`}
                 songTitle3={`Big White Lie`}
@@ -27,7 +27,7 @@ export default function Guan() {
                 track3={BWL}
                 track4={NewPolice}
                 track5={Leavin}   
-                border={'white 2px solid'} 
+                border={'whitesmoke 2px solid'} 
                 color={'white'}
             />
         </>

@@ -2,10 +2,7 @@ import { useState } from "react";
 
 
 
-export default function Album( { image, description, 
-
-    // albumTitle, albumDetail1, albumDetail2, albumDetail3, albumDetail4, albumDetail5, albumDetail6, albumDetail7, albumDetail8, albumDetail9,
-    
+export default function Album( { image, description,
     songTitle1, songTitle2, songTitle3, songTitle4, songTitle5, track1, track2, track3, track4, track5, backgroundColor, border, pageBackgroundColor, color, backCoverImage}) { 
 
 
@@ -20,7 +17,7 @@ export default function Album( { image, description,
         height: '400px', 
         borderRadius: '1.5%', 
         border: '.7px solid silver',
-        marginRight: '1rem',
+        // marginRight: '1rem',
         boxShadow: '4px 4px 20px rgba(55, 24, 3, 1)',
   }
 
@@ -76,38 +73,26 @@ export default function Album( { image, description,
 
             <div style={{
                 display: 'flex', 
-                flexDirection: 'column', 
-                justifyContent: 'space-evenly', 
-                alignItems: 'left', 
-                width: '400px', 
-                height: '400px', 
-                marginRight: '1rem', 
+                justifyContent: 'center', 
+                alignItems: 'center',   
                 backgroundColor, 
                 border, 
-                borderRadius: '1.5%', 
-                padding: '1rem 0 1rem 0',
-                boxShadow: '4px 4px 20px rgba(55, 24, 3, 1)',}} 
-                onMouseLeave={() => setBackCover(false)}>
+                borderRadius: '1.5%',
+                margin: '0 1rem 1rem 0',
 
-                <img style={coverStyle} src={backCoverImage} alt='back cover'/>
-
-                {/* <h4>{albumDetail1}</h4>
-                <h4>{albumDetail2}</h4>
-                <h4>{albumDetail3}</h4>
-                <h5>{albumDetail4}</h5>
-                <h5>{albumDetail5}</h5>
-                <h5>{albumDetail6}</h5>
-                <h6>{albumDetail7}</h6>
-                <h6>{albumDetail8}</h6>
-                <h6>{albumDetail9}</h6> */}
-            </div>
-           
+            }}>
+                
+                <img style={coverStyle} 
+                     src={backCoverImage} 
+                     alt='back cover'
+                     onMouseLeave={() => setBackCover(false)}
+                     />
+           </div>
            )}
 
 
         {/* Tracks */}
         <figure style={tracksStyle}>
-            {/* <h1>{albumTitle}</h1>     */}
             <figcaption>{songTitle1}</figcaption>
             <audio controls src={track1} style={audioStyle}/>
 
