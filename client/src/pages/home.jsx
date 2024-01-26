@@ -26,9 +26,9 @@ export default function Home() {
     }
 
     const albumPicStyle = {
-                    maxHeight: '95%', 
-                    width: '50%',
-                    margin: '5rem auto',
+        width: '200px',
+        height: '150px',
+        padding: '4%'
     }
 
     return (
