@@ -1,5 +1,5 @@
 import '../grail.css';
-import Pic_4 from '../images/Pic_4.jpeg';
+import Pic_4 from '../images/Pic_4.png';
 import Run from '../tracks/Run.mp3';
 import AudioPlayer from 'react-h5-audio-player';
 import BOT_Logo from '../images/BOT_Logo.png';
