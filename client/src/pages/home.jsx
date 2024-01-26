@@ -40,7 +40,8 @@ export default function Home() {
         <div id="topLeft" className="box">
         <img src={BOT_Gun} alt="Boys On Trial T-Shirt Logo" 
               style={{
-                maxHeight: '100%'
+                maxHeight: '100%',
+                // filter: 'drop-shadow(0px 0px 3px hotpink)'
               }} 
               />
         </div>
@@ -57,6 +58,7 @@ export default function Home() {
         <img src={BOT_Gun} alt="Boys On Trial T-Shirt Logo" 
               style={{
                 maxHeight: '100%', 
+                // filter: 'drop-shadow(0px 0px 5px hotpink)'
               }} />
         </div>
 
