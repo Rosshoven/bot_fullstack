@@ -1,4 +1,4 @@
-import Pic_1 from '../images/Pic_1.jpeg';
+import Pic_1 from '../images/Pic_1.jpg';
 import Pic_2 from '../images/Pic_2.jpeg';
 import Pic_3 from '../images/Pic_3.jpeg';
 import Pic_4 from '../images/Pic_4.png';
