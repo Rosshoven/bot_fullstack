@@ -4,6 +4,7 @@ const centering = {
     display: 'flex', 
     alignItems: 'center',
     flexDirection: 'column',
+    flexShrink: '1',
     marginTop: '4.4rem',
     flexWrap: 'wrap',
     paddingTop: '4.4',

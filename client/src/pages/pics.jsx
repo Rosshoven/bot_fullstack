@@ -6,7 +6,6 @@ import Pic_5 from '../images/Pic_5.png';
 import Pic_6 from '../images/Pic_6.png';
 import C_A from '../images/C_A.png';
 import Co from '../images/Co.png';
-// import Pic_OTS from '../images/Pic_OTS.jpeg';
 import Pic_Police from '../images/Pic_Police.png';
 import Pic_Red_Lion from '../images/Pic_Red_Lion.png';
 import Pic_SubT from '../images/Pic_SubT.png';
@@ -40,7 +39,6 @@ export default function Pics() {
         margin: '5rem auto', 
         opacity: '',
         filter: 'grayscale(20%) sepia(10%) contrast(100%) brightness(90%)',
-        // padding: '0',
       };
       
 
