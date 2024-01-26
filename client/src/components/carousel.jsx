@@ -51,7 +51,7 @@ const PhotoCarousel = ({ title, images, interval = 3000 }) => {
     
 
     return (
-      <div className="photo-carousel" style={centering}>
+      <div className="photo-carousel" id="photoCarousel" style={centering}>
 
         <h1 style={{
             marginTop: '3rem', 

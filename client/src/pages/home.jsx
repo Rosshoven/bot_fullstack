@@ -1,6 +1,6 @@
 import '../grail.css';
 import Pic_4 from '../images/Pic_4.jpeg';
-import LookLeft from '../tracks/LookLeft.mp3';
+import Run from '../tracks/Run.mp3';
 import AudioPlayer from 'react-h5-audio-player';
 import BOT_Logo from '../images/BOT_Logo.png';
 import Rex from '../tracks/Rex.mp3';
@@ -93,8 +93,8 @@ export default function Home() {
         </div>
 
         <div id="midLeftB" className="box">
-           <h6 style={{marginTop: '5%', color: 'white'}}>Look Left</h6>
-        <AudioPlayer src={LookLeft} 
+           <h6 style={{marginTop: '5%', color: 'white'}}>Run (from the city)</h6>
+        <AudioPlayer src={Run} 
                         //  autoplay
                          style={audioStyle} 
                          onPlay={e => console.log("Listening to Rawk n Roll")}
