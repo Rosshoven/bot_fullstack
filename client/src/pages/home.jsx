@@ -6,9 +6,10 @@ import BOT_Logo from '../images/BOT_Logo.png';
 import Rex from '../tracks/Rex.mp3';
 import BOT_Gun from '../images/BOT_Gun.png';
 import Dog_Motorcycle from '../images/Dog_Motorcycle.png';
-// import Walking from '../images/Walking.jpg';
-import CreateAccount from '../components/create-account';
-import Login from '../components/login';
+import IF from '../images/IF.png';
+import GuanCov from '../images/GuanCov.jpg';
+// import CreateAccount from '../components/create-account';
+// import Login from '../components/login';
 
 export default function Home() {
 
@@ -22,6 +23,12 @@ export default function Home() {
           marginBottom: '5%',
           padding: '0',
           border: '.2rem solid black'
+    }
+
+    const albumPicStyle = {
+                    maxHeight: '95%', 
+                    width: '50%',
+                    margin: '5rem auto',
     }
 
     return (
@@ -54,7 +61,9 @@ export default function Home() {
         </div>
 
         <div id="midRightA" className="box">
-            <CreateAccount />
+            {/* <CreateAccount />  Removing until Backend is complete */}
+            <img src={IF} alt={'If Album Cover'}
+                style={albumPicStyle} />
         </div>
 
         <div id="midRightB" className="box">
@@ -102,8 +111,11 @@ export default function Home() {
         </div>
 
         <div id="midLeftA" className="box">     
-            <Login />
+            {/* <Login /> Removing until backend is complete*/}
+            <img src={GuanCov} alt={'¡Guantanamo Boy! Album Cover'}
+                style={albumPicStyle} />
         </div>        
+
 
 
         
@@ -148,74 +160,3 @@ export default function Home() {
 
 
 
-// BELOW IS FIRST ATTEMOT AT HOME...TURNED INTO WILD LOOKING ALBUMS PAGE
-// import Banner from "../images/Banner.jpg";
-// import Album from "./album";
-// import IITLTWD from "../images/IITLTWD.jpg";
-// import GuanCov from "../images/GuanCov.jpg";
-// import Player from "./player";
-
-// export default function Home() {
-
-//     const footerStyle = {
-//         backgroundColor: 'black',
-//         color: 'white',  
-//         margin: '0', 
-//         padding: '.4%'
-//     }
-
-//     return (
-    
-//     <div>
-        
-//         {/* BANNER */}
-//             <img style=
-//             // using rem and position fixed keeps the banner in place
-//             {{marginTop: '4.4rem', 
-//             width: '100%',
-//             position: 'static',
-//             }} 
-//             src={Banner} className="img-fluid" alt="Boys On Trial Banner" />
-           
-
-//         {/* ALBUMS */}
-//             <div style={{
-//                 display: 'flex',
-//                 justifyContent: 'space-around',
-//                 flexWrap: 'wrap',
-//                 flexDirection: "row", 
-//                 backgroundColor: 'pink',
-//                 border: '1px solid silver',
-//                 }}>
-
-//                 <Album image={IITLTWD} 
-//                         title={`If it's the last thing we do...`}
-//                         description={'album cover for IITLTWD'}/>
-//                 <Album image={GuanCov}
-//                         title={`¡Guantanamo Boy!`} 
-//                         description={'album cover for ¡Guantanamo Boy!'}
-//                         />
-//                 <Album image={IITLTWD} 
-//                         title={`If it's the last thing we do...`}
-//                         description={'album cover for IITLTWD'}/>
-//                 <Album image={GuanCov}
-//                         title={`¡Guantanamo Boy!`} 
-//                         description={'album cover for ¡Guantanamo Boy!'}
-//                         />        
-//             </div>
-
-//         {/* Player */}
-//         <Player />
-
-            
-//         {/* Footer */}
-//             <div style={{display: 'flex', justifyContent: 'left', background: 'black'}}>
-//                 <h6 style={footerStyle}>&nbsp;©2023DADADesigns&nbsp;</h6> 
-//                 <h6 style={footerStyle}>&nbsp;&nbsp;Photos by Johanna&nbsp;</h6> 
-//                 <h6 style={footerStyle}>&nbsp;&nbsp;Logo by Blake&nbsp;</h6>                
-//             </div>
-
-
-//         </div>    
-//     );
-// };
