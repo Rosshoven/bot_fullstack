@@ -24,8 +24,8 @@ app.get('/account/create/:userName/:password', function (req, res) {
 });
 
 // Login route - API endpoint
-app.get('/account/login/:email/:password', (req, res) => {
-  dal.login(req.params.email, req.params.password)
+app.get('/account/login/:userName/:password', (req, res) => {
+  dal.login(req.params.userName, req.params.password)
   .then((user) => {
     if (!user) {
       // Send user the error status

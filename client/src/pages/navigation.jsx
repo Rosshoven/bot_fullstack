@@ -35,7 +35,7 @@ export default function Navigation() {
 
         <li className="nav-item dropdown">
           <a href='/' className="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Albums
+            EPs
           </a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/if">If it's the last thing we do</a></li>
