@@ -1,16 +1,16 @@
 import Pic_1 from '../images/Pic_1.jpg';
-import Pic_2 from '../images/Pic_2.jpeg';
-import Pic_3 from '../images/Pic_3.jpeg';
+import Pic_2 from '../images/Pic_2.png';
+import Pic_3 from '../images/Pic_3.png';
 import Pic_4 from '../images/Pic_4.png';
-import Pic_5 from '../images/Pic_5.jpeg';
-import Pic_6 from '../images/Pic_6.jpeg';
-import C_A from '../images/C_A.jpeg';
-import Co from '../images/Co.jpeg';
+import Pic_5 from '../images/Pic_5.png';
+import Pic_6 from '../images/Pic_6.png';
+import C_A from '../images/C_A.png';
+import Co from '../images/Co.png';
 // import Pic_OTS from '../images/Pic_OTS.jpeg';
-import Pic_Police from '../images/Pic_Police.JPG';
-import Pic_Red_Lion from '../images/Pic_Red_Lion.JPG';
-import Pic_SubT from '../images/Pic_SubT.JPG';
-import Pic_SubT_2 from '../images/Pic_SubT_2.JPG';
+import Pic_Police from '../images/Pic_Police.png';
+import Pic_Red_Lion from '../images/Pic_Red_Lion.png';
+import Pic_SubT from '../images/Pic_SubT.png';
+import Pic_SubT_2 from '../images/Pic_SubT_2.png';
 import Logo_Pink from '../images/Logo_Pink.png';
 import PhotoCarousel from '../components/carousel';
 
