@@ -1,6 +1,6 @@
 import AlbumFour from '../components/albumFour';
 import TruthCover from '../images/TruthCover.png';
-import TruthBack from '../images/TruthBack.png';
+import Truth_Back from '../images/Truth_Back.png';
 import FakeSmiles from '../tracks/FakeSmiles.mp3';
 import Oval from '../tracks/Oval.mp3';
 import October from '../tracks/October.mp3';
@@ -25,11 +25,11 @@ export default function Truth () {
                 // track5={RunLive}
                 pageBackgroundColor={'black'}
                 backgroundColor={'black'}
-                border={'white 2px solid'}
+                border={'hotpink 2px solid'}
                 color={'white'}
-                backCoverImage={TruthBack}
+                backCoverImage={Truth_Back}
                 audioBorder={'solid 2px hotpink'}
-                coverBorder={'solid 2px white'}
+                coverBorder={'solid 2px hotpink'}
             />
         </>
 
