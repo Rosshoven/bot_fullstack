@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import BOT_Logo from "../images/BOT_Logo.png";
@@ -11,9 +11,9 @@ export default function Navigation() {
 <>
   <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style={{borderBottom: '.1px solid #f0f0f0'}}>
    <div className="container-fluid">
-    <a href='home' className="navbar-brand">
+    <NavLink href='home' className="navbar-brand">
       <img src={BOT_Logo} alt="Boys On Trial Logo" width="53" height="53" style={{borderRadius: '5%', border: '.7px solid silver'}}></img>
-    </a>
+    </NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,27 +22,26 @@ export default function Navigation() {
       <ul className="navbar-nav">
 
         <li className="nav-item">
-          <a href='home' className="nav-link active" aria-current="page">Home</a>
+          <NavLink to={'home'} className="nav-link active" aria-current="page">Home</NavLink>
         </li>
 
         <li className="nav-item">
-          <a href='about' className="nav-link active">About</a>
+          <NavLink to={'about'} className="nav-link active">About</NavLink>
         </li>
 
         <li className="nav-item">
-          <a href='pics' className="nav-link active">Pics</a>
+          <NavLink to={'pics'} className="nav-link active">Pics</NavLink>
         </li>
 
         <li className="nav-item dropdown">
-          <a href='/' className="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <NavLink to={'/'} className="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             EPs
-          </a>
+          </NavLink>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/if">If it's the last thing we do</a></li>
-            <li><a className="dropdown-item" href="/guan">¡Guantanamo Boy!</a></li>
-            <li><a className="dropdown-item" href="/schubas">Live at Schuba's</a></li>
-            <li><a className="dropdown-item" href="/truth">Truth & Lies</a></li>
-            {/* <li><a className="dropdown-item" href="/create-account">Create Account</a></li> */}
+            <li><NavLink className="dropdown-item" to={'/if'}>If it's the last thing we do</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/guan'}>¡Guantanamo Boy!</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/schubas'}>Live at Schuba's</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/truth'}>Truth & Lies</NavLink></li>
           </ul>
         </li>
 
