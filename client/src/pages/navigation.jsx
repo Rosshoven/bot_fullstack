@@ -11,14 +11,14 @@ export default function Navigation() {
 <>
   <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style={{borderBottom: '.1px solid #f0f0f0'}}>
    <div className="container-fluid">
-    <NavLink href='home' className="navbar-brand">
+    <NavLink to={'home'} className="navbar-brand">
       <img src={BOT_Logo} alt="Boys On Trial Logo" width="53" height="53" style={{borderRadius: '5%', border: '.7px solid silver'}}></img>
     </NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
    
-    <div className="collapse navbar-collapse" id="navbarNav">
+    <div className="collapse navbar-collapse" id="navbarNav" style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.6rem'}}>
       <ul className="navbar-nav">
 
         <li className="nav-item">

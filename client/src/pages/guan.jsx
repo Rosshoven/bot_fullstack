@@ -29,6 +29,7 @@ export default function Guan() {
                 track5={Leavin}   
                 border={'whitesmoke 2px solid'} 
                 color={'white'}
+                fontFamily={'RocknRoll One, sans-serif'}
             />
         </>
     )

@@ -2,12 +2,12 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 // import Album from './album';
 // import IITLTWD from '../images/IITLTWD.jpg';
-import Rex from '../tracks/Rex.mp3';
+// import Rex from '../tracks/Rex.mp3';
 // import Fireplay from '../tracks/Fireplay.mp3'
 // import 'react-h5-audio-player/lib/styles.less' Use LESS
 // import 'react-h5-audio-player/src/styles.scss' Use SASS
 
-export default function Player() {
+export default function Player( src, songTitle ) {
 
 
 
@@ -15,10 +15,10 @@ export default function Player() {
 
   return(  
 <>
-    {/* <Album image={IITLTWD} /> */}
+    <h6>{songTitle}</h6>
     <AudioPlayer
     // autoPlay
-    src={Rex}
+    src
     onPlay={e => console.log("Listening to Rawk n Roll")}
     // other props here
   />

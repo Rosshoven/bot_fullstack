@@ -43,6 +43,7 @@ export default function If() {
                border={'green 2px solid'}
                pageBackgroundColor={'#d83c'}
                backCoverImage={IfBack}
+               fontFamily={'RocknRoll One, sans-serif'}
                />
                <p style={{
                 display: 'flex', 

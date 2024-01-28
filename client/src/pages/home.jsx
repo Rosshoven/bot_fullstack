@@ -8,6 +8,7 @@ import BOT_Gun from '../images/BOT_Gun.png';
 import Dog_Motorcycle from '../images/Dog_Motorcycle.png';
 import IF from '../images/IF.png';
 import GuanCov from '../images/GuanCov.jpg';
+import { NavLink } from 'react-router-dom';
 // import CreateAccount from '../components/create-account';
 // import Login from '../components/login';
 
@@ -28,7 +29,7 @@ export default function Home() {
     const albumPicStyle = {
         width: '200px',
         height: '150px',
-        padding: '4%'
+        padding: '4%',
     }
 
     return (
@@ -48,10 +49,6 @@ export default function Home() {
 
         <div id="header" className="box">
             <img style={{width: '100%', height: '100%', objectFit: 'cover' }} src={Pic_4} alt="Pic of Band downtown Chicago" />
-            {/* <h1>Boys On Trial</h1> */}
-            <div style={{ position: 'absolute', top: '15%', left: '35.5%', transform: 'translate(-50%, -90%)', textAlign: 'left', color: 'black'}}>
-            {/* <h1 style={{fontSize: '1rem'}}>Boys On Trial</h1> */}
-  </div>
         </div>
        
         <div id="topRight" className="box">
@@ -69,15 +66,22 @@ export default function Home() {
         </div>
 
         <div id="midRightB" className="box">
-        <h6 style={{marginTop: '5%', color: 'white'}}>Rex</h6>
-        <AudioPlayer src={Rex} 
-                        //  autoplay
-                         style={audioStyle} 
-                         onPlay={e => console.log("Listening to Rawk n Roll")}
-                         />        </div>
+            <h6 style={{
+                marginTop: '5%',
+                color: 'white',
+                fontFamily: 'RocknRoll One, sans-serif'
+                }}>Rex
+            </h6>
+            
+            <AudioPlayer 
+                src={Rex} 
+                style={audioStyle} 
+                onPlay={e => console.log("Listening to Rawk n Roll")}
+             />        
+        </div>
 
         <div id="bottomRight" className="box">
-            <a href='if'>You are safe today</a>
+            <NavLink to={'if'} style={{fontFamily: 'New Rocker, system-ui'}} >You are safe today</NavLink>
         </div>
 
         <div id="bottomRightA" className="box">
@@ -100,16 +104,19 @@ export default function Home() {
         </div>
 
         <div id="bottomLeft" className="box">
-            <a href='guan'>In all tonight's dreams believe</a>
+            <NavLink to={'guan'} style={{fontFamily: 'New Rocker, system-ui'}} >In all tonight's dreams believe</NavLink>
         </div>
 
         <div id="midLeftB" className="box">
-           <h6 style={{marginTop: '5%', color: 'white'}}>Run (from the city)</h6>
-        <AudioPlayer src={Run} 
-                        //  autoplay
+           <h6 style={{
+                    marginTop: '5%', 
+                    color: 'white',
+                    fontFamily: 'RocknRoll One, sans-serif'
+                    }}>Run (from the city)</h6>
+            <AudioPlayer src={Run} 
                          style={audioStyle} 
                          onPlay={e => console.log("Listening to Rawk n Roll")}
-                         />
+            />
         </div>
 
         <div id="midLeftA" className="box">     
