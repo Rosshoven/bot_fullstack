@@ -129,8 +129,8 @@ export default function Home() {
 
         
 {/* <!-- Center --> */}
-
-             <img id="center" 
+<div className='shimmer'  id="center">
+             <img  
                  src={BOT_Logo} 
                  style={{ 
                     width: '100%',  
@@ -138,6 +138,7 @@ export default function Home() {
                     }} 
                     alt="Boys On Trial Logo" 
                  />
+</div>                 
             {/* <AudioPlayer src={LookLeft} 
                          autoplay
                          style={{width: '100%', 
