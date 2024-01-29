@@ -8,7 +8,7 @@ import BOT_Gun from '../images/BOT_Gun.png';
 import Dog_Motorcycle from '../images/Dog_Motorcycle.png';
 import IF from '../images/IF.png';
 import GuanCov from '../images/GuanCov.jpg';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 // import CreateAccount from '../components/create-account';
 // import Login from '../components/login';
 
@@ -61,10 +61,10 @@ export default function Home() {
 
         <div id="midRightA" className="box">
             {/* <CreateAccount />  Removing until Backend is complete */}
-            <NavLink to={'if'}>
+            <Link to={'if'}>
             <img src={IF} alt={'If Album Cover'}
                 style={albumPicStyle} />
-            </NavLink>    
+            </Link>    
         </div>
 
         <div id="midRightB" className="box">
@@ -83,7 +83,7 @@ export default function Home() {
         </div>
 
         <div id="bottomRight" className="box">
-            <NavLink to={'if'} style={{fontFamily: 'New Rocker, system-ui'}} >You are safe today</NavLink>
+            <Link className='corner' to={'if'} style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.3rem'}} >You are safe today</Link>
         </div>
 
         <div id="bottomRightA" className="box">
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
 
         <div id="bottomLeft" className="box">
-            <NavLink to={'guan'} style={{fontFamily: 'New Rocker, system-ui'}} >In all tonight's dreams believe</NavLink>
+            <Link to={'guan'} style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.3rem'}} >In all tonight's dreams believe</Link>
         </div>
 
         <div id="midLeftB" className="box">

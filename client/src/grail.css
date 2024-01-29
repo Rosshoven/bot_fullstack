@@ -264,14 +264,34 @@
 
  @media (max-width: 375px) {
    .albumContainer {
-      padding-top: 18rem;
+      padding-top: 25rem;
       overflow: auto
+   }
+   #bottomRight {
+      grid-area: 4 / 4 / 5 / 5;
+      font-size: 1em;
+      border-bottom-right-radius: 1rem; 
+   }
+
+   .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color:  #d48c;
+      overflow: auto;
+   }
+
+   .corner {
+      font-size: 3.2rem;
    }
  }
 
  @media (max-width: 390px) {
    .albumContainer {
-      padding: 7rem auto;
+      padding: 10rem auto;
       overflow: auto
    }
+
+   
  }
