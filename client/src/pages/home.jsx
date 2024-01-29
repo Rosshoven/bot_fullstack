@@ -162,9 +162,10 @@ export default function Home() {
     
     {/* Footer */}
     <div id="footer">
-           <p>All Songs ©BOT</p>  
+           <p>©2024DADADesigns</p>  
            <p>Photos by Johanna Claudette</p>  
            <p>Logos by Blake Calovic</p>
+           <p>All Songs ©BOT</p>
     </div>
 
 
