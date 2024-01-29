@@ -18,7 +18,9 @@ export default function AlbumFour( {
                             pageBackgroundColor, 
                             color, 
                             backCoverImage, 
-                            audioBorder, coverBorder} ) 
+                            audioBorder, coverBorder,
+                            fontFamily
+                        } ) 
     
     { 
 
@@ -51,6 +53,11 @@ export default function AlbumFour( {
         boxShadow: '2px 2px 12px rgba(55, 24, 3, 1)',
         color
     }
+
+    const titleStyle = {
+        fontFamily
+     }   
+
 
     
 
@@ -110,16 +117,15 @@ export default function AlbumFour( {
 
         {/* Tracks */}
         <figure style={tracksStyle}>
-            <figcaption>{songTitle1}</figcaption>
+        <figcaption style={titleStyle}>{songTitle1}</figcaption>
             <audio controls src={track1} style={audioStyle}/>
 
-            <figcaption>{songTitle2}</figcaption>   
+            <figcaption style={titleStyle}>{songTitle2}</figcaption>   
             <audio controls src={track2} style={audioStyle}/>
 
-            <figcaption>{songTitle3}</figcaption>   
+            <figcaption style={titleStyle}>{songTitle3}</figcaption>   
             <audio controls src={track3} style={audioStyle}/>
-
-            <figcaption>{songTitle4}</figcaption>   
+            <figcaption style={titleStyle}>{songTitle4}</figcaption>   
             <audio controls src={track4} style={audioStyle}/>
 
         </figure>   

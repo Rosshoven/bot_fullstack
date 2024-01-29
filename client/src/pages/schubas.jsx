@@ -31,6 +31,7 @@ export default function Schubas() {
                backCoverImage={SchubasBack}
                coverBorder={'solid 2px black'}
                audioBorder={'solid 2px black'}
+               fontFamily={'New Rocker, system-ui'}
                />
     </div>           
       

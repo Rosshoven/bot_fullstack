@@ -30,6 +30,7 @@ export default function Truth () {
                 backCoverImage={Truth_Back}
                 audioBorder={'solid 2px hotpink'}
                 coverBorder={'solid 2px hotpink'}
+                fontFamily={'Handlee, cursive'}
             />
         </>
 
