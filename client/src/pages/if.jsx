@@ -29,11 +29,14 @@ export default function If() {
                track3={LookLeft}
                track4={SaySometing}
                track5={GetInLine}
-               backgroundColor={'silver'}
-               border={'green 2px solid'}
-               pageBackgroundColor={'#d83c'}
+               backgroundColor={'rgb(34, 34, 34)'}
+               color={'rgb(255, 253, 237)'}
+               border={' rgb(207, 26, 26) 2px solid'}
+               pageBackgroundColor={'rgb(234, 208, 208)'}
                backCoverImage={If_Back}
                fontFamily={'RocknRoll One, sans-serif'}
+               audioBorder={'rgb(234, 208, 208) 2px solid'}
+               coverBorder={' rgb(207, 26, 26) 2px solid'}
                />
                <p style={{
                 display: 'flex', 
@@ -41,7 +44,7 @@ export default function If() {
                 paddingRight: '5%', 
                 alignContent: 'center', 
                 paddingTop: '1rem',
-                backgroundColor: '#d83c',
+                backgroundColor: 'rgb(234, 208, 208)',
                 // backgroundSize: 'cover', 
                 margin: 0,
                 // width: '100%',

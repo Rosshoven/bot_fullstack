@@ -210,8 +210,6 @@
 
 #lineTwo {
    grid-area: 2 / 2 / 3 / 5;
-   /* color: rgb(186, 186, 186); */
-   /* Using above line this to test colors  */
 }
 
 #lineThree {
@@ -225,6 +223,8 @@
 #lineFive {
    grid-area: 5 / 1 / 6 / 4;
 
+   color: rgb(255, 253, 237);
+   /* Using above line to test colors  */
 }
 
 
@@ -239,8 +239,8 @@
 // font-family: 'Rubik Moonrocks', sans-serif; */
 
 
-/* Album Compnenet*/
 
+/* Album Componenet*/
 .albumContainer {
         display: flex; 
         flex-direction: row; 
@@ -260,6 +260,20 @@
 @media (max-width: 761px) {
    .albumContainer {
       padding-top: 14rem;
+      overflow: auto
+   }
+ }
+
+ @media (max-width: 375px) {
+   .albumContainer {
+      padding-top: 18rem;
+      overflow: auto
+   }
+ }
+
+ @media (max-width: 390px) {
+   .albumContainer {
+      padding: 7rem auto;
       overflow: auto
    }
  }
