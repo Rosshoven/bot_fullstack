@@ -1,7 +1,7 @@
 import '../grail.css';
 import Pic_4 from '../images/Pic_4.png';
 import Run from '../tracks/Run.mp3';
-import AudioPlayer from 'react-h5-audio-player';
+// import AudioPlayer from 'react-h5-audio-player';
 import BOT_Logo from '../images/BOT_Logo.png';
 import Rex from '../tracks/Rex.mp3';
 import BOT_Gun from '../images/BOT_Gun.png';
@@ -15,8 +15,8 @@ import { NavLink } from 'react-router-dom';
 export default function Home() {
 
     const audioStyle = {
-          width: '90%',
-          height: '90%', 
+          width: '96%',
+          maxHeight: '100vh', 
           backgroundColor: 'white',
           borderRadius: '1rem',
           overflow: 'auto',
@@ -70,12 +70,12 @@ export default function Home() {
         <div id="midRightB" className="box">
             <h6 style={{
                 marginTop: '5%',
-                color: 'white',
+                color: 'rgb(255, 253, 237)',
                 fontFamily: 'RocknRoll One, sans-serif'
                 }}>Rex
             </h6>
             
-            <AudioPlayer 
+            <audio controls 
                 src={Rex} 
                 style={audioStyle} 
                 onPlay={e => console.log("Listening to Rawk n Roll")}
@@ -112,14 +112,17 @@ export default function Home() {
         <div id="midLeftB" className="box">
            <h6 style={{
                     marginTop: '5%', 
-                    color: 'white',
+                    color: 'rgb(255, 253, 237)',
                     fontFamily: 'RocknRoll One, sans-serif'
                     }}>Run (from the city)</h6>
-            <AudioPlayer src={Run} 
-                         style={audioStyle} 
-                         onPlay={e => console.log("Listening to Rawk n Roll")}
+            <audio   
+                    controls    
+                     src={Run} 
+                     style={audioStyle} 
+                     onPlay={e => console.log("Listening to Rawk n Roll")}
             />
         </div>
+
 
         <div id="midLeftA" className="box">     
             {/* <Login /> Removing until backend is complete*/}
