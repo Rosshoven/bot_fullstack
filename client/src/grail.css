@@ -281,10 +281,6 @@
       background-color:  #d48c;
       overflow: auto;
    }
-
-   .corner {
-      font-size: 3.2rem;
-   }
  }
 
  @media (max-width: 390px) {
