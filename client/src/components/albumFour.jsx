@@ -9,12 +9,10 @@ export default function AlbumFour( {
                             songTitle2, 
                             songTitle3, 
                             songTitle4, 
-                            songTitle5, 
                             track1, 
                             track2, 
                             track3, 
                             track4, 
-                            track5, 
                             backgroundColor, 
                             border, 
                             pageBackgroundColor, 
@@ -60,20 +58,21 @@ export default function AlbumFour( {
 
     return (
 
-    <div style={{
-        display: 'flex', 
-        flexDirection: 'row', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        alignContent:'space-evenly', 
-        flexWrap: 'wrap', 
-        margin: '0',
+    <div className="albumContainer"     
+        style={{
+        // display: 'flex', 
+        // flexDirection: 'row', 
+        // justifyContent: 'center', 
+        // alignItems: 'center', 
+        // alignContent:'space-evenly', 
+        // flexWrap: 'wrap', 
+        // margin: '0',
         backgroundColor: pageBackgroundColor,
-        backgroundSize: 'cover', 
-        width: '100%',
-        height: '100vh',
-        paddingTop: '1rem',
-        position: 'relative',
+        // backgroundSize: 'cover', 
+        // width: '100%',
+        // height: '100vh',
+        // paddingTop: '1rem',
+        // position: 'relative',
     }}>
             
 

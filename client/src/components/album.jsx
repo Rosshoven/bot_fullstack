@@ -66,9 +66,12 @@ export default function Album( {
 
     return (
 
-    <div id="albumContainer"
+    <div 
+            className="albumContainer"
         style={{
            backgroundColor: pageBackgroundColor,
+        //    backgroundSize: 'repeat',
+        //    height: '100vh',
     //     display: 'flex', 
     //     flexDirection: 'row', 
     //     justifyContent: 'center', 
@@ -81,9 +84,6 @@ export default function Album( {
     //     height: '100vh',
     //     paddingTop: '1rem',
     //     position: 'relative',
-    //     '@media (max-width: 761px)': {
-    //         paddingTop: '20px'
-    //       }
     }}
     >
             

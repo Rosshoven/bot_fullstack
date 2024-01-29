@@ -11,7 +11,7 @@ import Leavin from '../tracks/Leavin.mp3';
 export default function Guan() {
 
     return (
-        <>
+        <div className="albumPageBackground">
             <Album 
                 image={GuanCov}
                 backgroundColor={'black'}
@@ -32,6 +32,6 @@ export default function Guan() {
                 color={'antiquewhite'}
                 fontFamily={'RocknRoll One, sans-serif'}
             />
-        </>
+        </div>
     )
 }

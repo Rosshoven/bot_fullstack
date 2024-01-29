@@ -15,20 +15,10 @@ export default function If() {
     const [isHovered, setIsHovered] = useState(false);
     return(
 
-    <div>
+    <div style={{backgroundColor: '#d83c',}}>
         <Album 
                image={IF} 
                description={`If it's the last thing we do Album Cover`} 
-            //    albumTitle={`If it's the last thing we do...`}
-            //    albumDetail1={`Recorded by Boys On Trial`}
-            //    albumDetail2={`At Bearfux Troy's in Chicago`}
-            //    albumDetail3={`Spring 2008`}
-            //    albumDetail4={`Michael.gv`}
-            //    albumDetail5={`Colin.d`}
-            //    albumDetail6={`Ken.b`}
-            //    albumDetail7={`Mastered by Ken`}
-            //    albumDetail8={`Cover from last soundcheck, Reggie's Rock Room`}
-            //    albumDetail9={`Special thanks to our friends xo \u00A0 \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ©2008`}
                songTitle1={`Rex`}
                songTitle2={`Fireplay`}
                songTitle3={`Look Left`}
@@ -47,16 +37,16 @@ export default function If() {
                />
                <p style={{
                 display: 'flex', 
-                // flexDirection: 'row', 
                 justifyContent: 'right', 
                 paddingRight: '5%', 
                 alignContent: 'center', 
-                // flexWrap: 'wrap', 
                 paddingTop: '1rem',
                 backgroundColor: '#d83c',
                 // backgroundSize: 'cover', 
-                width: '100%',
+                margin: 0,
+                // width: '100%',
                 height: '10vh',
+                overflow: 'auto',
                 // paddingTop: '.1rem',
                 // position: 'relative',
                 fontFamily: 'Rock Salt, cursive',
