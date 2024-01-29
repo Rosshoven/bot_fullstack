@@ -66,21 +66,26 @@ export default function Album( {
 
     return (
 
-    <div style={{
-        display: 'flex', 
-        flexDirection: 'row', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        alignContent:'space-evenly', 
-        flexWrap: 'wrap', 
-        margin: '0',
-        backgroundColor: pageBackgroundColor,
-        backgroundSize: 'cover', 
-        width: '100%',
-        height: '100vh',
-        paddingTop: '1rem',
-        position: 'relative',
-    }}>
+    <div id="albumContainer"
+        style={{
+           backgroundColor: pageBackgroundColor,
+    //     display: 'flex', 
+    //     flexDirection: 'row', 
+    //     justifyContent: 'center', 
+    //     alignItems: 'center', 
+    //     alignContent:'space-evenly', 
+    //     flexWrap: 'wrap', 
+    //     marginTop: '0rem',
+    //     backgroundSize: 'cover', 
+    //     width: '100%',
+    //     height: '100vh',
+    //     paddingTop: '1rem',
+    //     position: 'relative',
+    //     '@media (max-width: 761px)': {
+    //         paddingTop: '20px'
+    //       }
+    }}
+    >
             
 
         {/* Album Front/Back */}    
@@ -101,7 +106,7 @@ export default function Album( {
                 justifyContent: 'center', 
                 alignItems: 'center',   
                 backgroundColor, 
-                border, 
+                // border, 
                 borderRadius: '1.5%',
                 margin: '0 1rem 1rem 0',
 

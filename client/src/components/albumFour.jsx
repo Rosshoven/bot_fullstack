@@ -95,7 +95,6 @@ export default function AlbumFour( {
                 justifyContent: 'center', 
                 alignItems: 'center',   
                 backgroundColor, 
-                border, 
                 borderRadius: '1.5%',
                 margin: '0 1rem 1rem 0',
 

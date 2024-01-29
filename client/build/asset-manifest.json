@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3736269.css",
-    "main.js": "/static/js/main.3922fbda.js",
+    "main.css": "/static/css/main.bc62f431.css",
+    "main.js": "/static/js/main.733cb934.js",
     "static/media/RunLive.mp3": "/static/media/RunLive.908707ef4504a548d534.mp3",
     "static/media/Blurry.mp3": "/static/media/Blurry.edb5cd2f89f49608c5f8.mp3",
     "static/media/Hey.mp3": "/static/media/Hey.5e2b7282d640ac9b6ada.mp3",
@@ -34,7 +34,7 @@
     "static/media/Pic_Police.png": "/static/media/Pic_Police.a1dcbde0d0317471e360.png",
     "static/media/IF.png": "/static/media/IF.5e53de3262b17d79ba46.png",
     "static/media/GuanCov.jpg": "/static/media/GuanCov.6268bb105e04b1916639.jpg",
-    "static/media/IfBack.png": "/static/media/IfBack.d2f92274bee426e22094.png",
+    "static/media/If_Back.png": "/static/media/If_Back.1b51be332591b387b38a.png",
     "static/media/SchubasBack.png": "/static/media/SchubasBack.b28ab23a04706f260120.png",
     "static/media/Truth_Back.png": "/static/media/Truth_Back.39f76b19c4113e9d53ae.png",
     "static/media/Pic_5.png": "/static/media/Pic_5.f658354528fdb3046f73.png",
@@ -46,11 +46,11 @@
     "static/media/Co.png": "/static/media/Co.bc1a02c6ebb68b77023c.png",
     "static/media/C_A.png": "/static/media/C_A.85d8e0837128b1b90247.png",
     "index.html": "/index.html",
-    "main.b3736269.css.map": "/static/css/main.b3736269.css.map",
-    "main.3922fbda.js.map": "/static/js/main.3922fbda.js.map"
+    "main.bc62f431.css.map": "/static/css/main.bc62f431.css.map",
+    "main.733cb934.js.map": "/static/js/main.733cb934.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3736269.css",
-    "static/js/main.3922fbda.js"
+    "static/css/main.bc62f431.css",
+    "static/js/main.733cb934.js"
   ]
 }

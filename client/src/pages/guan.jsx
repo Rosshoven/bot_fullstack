@@ -27,8 +27,9 @@ export default function Guan() {
                 track3={BWL}
                 track4={NewPolice}
                 track5={Leavin}   
-                border={'whitesmoke 2px solid'} 
-                color={'white'}
+                border={'rgb(186, 186, 186) 2px solid'} 
+                coverBorder={'rgb(186, 186, 186) 2px solid'}
+                color={'antiquewhite'}
                 fontFamily={'RocknRoll One, sans-serif'}
             />
         </>
