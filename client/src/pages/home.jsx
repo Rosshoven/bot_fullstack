@@ -27,7 +27,7 @@ export default function Home() {
     }
 
     const albumPicStyle = {
-        width: '200px',
+        width: '150px',
         height: '150px',
         padding: '4%',
     }
@@ -39,12 +39,12 @@ export default function Home() {
         {/* Grail in clockwise order from topLeft */}
         
         <div id="topLeft" className="box">
-        <img src={BOT_Gun} alt="Boys On Trial T-Shirt Logo" 
-              style={{
-                maxHeight: '100%',
-                // filter: 'drop-shadow(0px 0px 3px hotpink)'
-              }} 
-              />
+            <img src={BOT_Gun} alt="Boys On Trial T-Shirt Logo" 
+                style={{
+                    maxHeight: '100%',
+                    // filter: 'drop-shadow(0px 0px 3px hotpink)'
+                }} 
+                />
         </div>
 
         <div id="header" className="box">
@@ -61,8 +61,10 @@ export default function Home() {
 
         <div id="midRightA" className="box">
             {/* <CreateAccount />  Removing until Backend is complete */}
+            <NavLink to={'if'}>
             <img src={IF} alt={'If Album Cover'}
                 style={albumPicStyle} />
+            </NavLink>    
         </div>
 
         <div id="midRightB" className="box">
@@ -121,8 +123,10 @@ export default function Home() {
 
         <div id="midLeftA" className="box">     
             {/* <Login /> Removing until backend is complete*/}
+            <NavLink to={'guan'}>
             <img src={GuanCov} alt={'¡Guantanamo Boy! Album Cover'}
-                style={albumPicStyle} />
+                style={albumPicStyle}/>
+            </NavLink>    
         </div>        
 
 

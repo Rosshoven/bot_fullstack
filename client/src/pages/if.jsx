@@ -3,7 +3,7 @@ import { useState } from 'react';
 import 'react-h5-audio-player/lib/styles.css';
 import Album from '../components/album';
 import IF from '../images/IF.png';
-import IfBack from '../images/IfBack.png'
+import If_Back from '../images/If_Back.png'
 import Rex from '../tracks/Rex.mp3';
 import Fireplay from '../tracks/Fireplay.mp3';
 import LookLeft from '../tracks/LookLeft.mp3'
@@ -42,7 +42,7 @@ export default function If() {
                backgroundColor={'silver'}
                border={'green 2px solid'}
                pageBackgroundColor={'#d83c'}
-               backCoverImage={IfBack}
+               backCoverImage={If_Back}
                fontFamily={'RocknRoll One, sans-serif'}
                />
                <p style={{

@@ -49,7 +49,7 @@
  
 #midRightA {
     grid-area: 2 / 4 / 3 / 5;
-    font-size: .7em;
+    /* font-size: .7em; */
  }
 
  #midRightB {
@@ -98,8 +98,8 @@
     flex-direction: column;
     background-color:  #d48c;
     overflow: auto;
-    border-style: solid 1px black;
-    padding: auto;
+    /* border-style: solid 1px black; */
+    /* padding: auto; */
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
  }
@@ -142,8 +142,8 @@
             position: absolute;
             top: 0;
             left: -150%;
-            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-            animation: shimmer 2s infinite;
+            background: linear-gradient(to right, rgba(209, 66, 66, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+            animation: shimmer 2.5s infinite;
  }
 
  @keyframes shimmer {
