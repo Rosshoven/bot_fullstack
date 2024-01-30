@@ -42,9 +42,9 @@ app.post('')
 
 // catch all-handle all requests if no one else handled it.
 // NOT YET, but you'll use below 3 lines -1/17/24
-// app.get('*', function (req, res) {
-//   res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
-// });
+app.get('*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+});
 
 
 app.get('/', (req, res) => {
