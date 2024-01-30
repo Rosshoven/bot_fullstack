@@ -8,7 +8,7 @@ import BOT_Gun from '../images/BOT_Gun.png';
 import Dog_Motorcycle from '../images/Dog_Motorcycle.png';
 import IF from '../images/IF.png';
 import GuanCov from '../images/GuanCov.jpg';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import CreateAccount from '../components/create-account';
 // import Login from '../components/login';
 
