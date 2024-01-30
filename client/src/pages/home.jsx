@@ -61,7 +61,7 @@ export default function Home() {
 
         <div id="midRightA" className="box">
             {/* <CreateAccount />  Removing until Backend is complete */}
-            <Link to={'if'}>
+            <Link to={'/if'}>
             <img src={IF} alt={'If Album Cover'}
                 style={albumPicStyle} />
             </Link>    
@@ -83,7 +83,7 @@ export default function Home() {
         </div>
 
         <div id="bottomRight" className="box">
-            <Link className='corner' to={'if'} style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.3rem'}} >You are safe today</Link>
+            <Link className='corner' to={'/if'} style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.3rem'}} >You are safe today</Link>
         </div>
 
         <div id="bottomRightA" className="box">
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
 
         <div id="bottomLeft" className="box">
-            <Link to={'guan'} style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.3rem'}} >In all tonight's dreams believe</Link>
+            <Link to={'/guan'} style={{fontFamily: 'New Rocker, system-ui', fontSize: '1.3rem'}} >In all tonight's dreams believe</Link>
         </div>
 
         <div id="midLeftB" className="box">
@@ -126,10 +126,10 @@ export default function Home() {
 
         <div id="midLeftA" className="box">     
             {/* <Login /> Removing until backend is complete*/}
-            <NavLink to={'guan'}>
+            <Link to={'/guan'}>
             <img src={GuanCov} alt={'¡Guantanamo Boy! Album Cover'}
                 style={albumPicStyle}/>
-            </NavLink>    
+            </Link>    
         </div>        
 
 
