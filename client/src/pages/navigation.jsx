@@ -22,15 +22,18 @@ export default function Navigation() {
       <ul className="navbar-nav">
 
         <li className="nav-item">
-          <NavLink to={'home'} className="nav-link active" aria-current="page">Home</NavLink>
+          <NavLink to={'home'} className="nav-link active" aria-current="page"
+          onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>Home</NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink to={'about'} className="nav-link active">About</NavLink>
+          <NavLink to={'about'} className="nav-link active"
+          onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>About</NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink to={'pics'} className="nav-link active">Pics</NavLink>
+          <NavLink to={'pics'} className="nav-link active"
+          onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>Pics</NavLink>
         </li>
 
         <li className="nav-item dropdown">
@@ -38,10 +41,14 @@ export default function Navigation() {
             EPs
           </NavLink>
           <ul className="dropdown-menu">
-            <li><NavLink className="dropdown-item" to={'/if'}>If it's the last thing we do</NavLink></li>
-            <li><NavLink className="dropdown-item" to={'/guan'}>¡Guantanamo Boy!</NavLink></li>
-            <li><NavLink className="dropdown-item" to={'/schubas'}>Live at Schuba's</NavLink></li>
-            <li><NavLink className="dropdown-item" to={'/truth'}>Truth & Lies</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/if'}
+            onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>If it's the last thing we do</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/guan'}
+            onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>¡Guantanamo Boy!</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/schubas'}
+            onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>Live at Schuba's</NavLink></li>
+            <li><NavLink className="dropdown-item" to={'/truth'}
+            onClick={() => document.getElementById('navbarScroll').classList.remove('show')}>Truth & Lies</NavLink></li>
           </ul>
         </li>
 
