@@ -79,13 +79,15 @@ const PhotoCarousel = ({ title, images, interval = 3000 }) => {
             flexDirection: 'row', 
             justifyContent: 'center', 
             flexWrap: 'wrap', 
-            flexShrink: '1'
+            flexShrink: '1',
+            width: '80%',
             }}>
             <button className='btn btn-outline-dark' onClick={prevImage} style={buttonStyle}>Prev</button>
             <img src={images[currentIndex]} alt={`${currentIndex + 1}`} 
+                width={375} height={450}
                 style={{ 
-                  maxWidth: '80em', 
-                  maxHeight: '450px', 
+                  // width:'80%', 
+                  // maxHeight: '60vh', 
                   border: '12px solid black', 
                   borderRadius: '1rem'}} 
                   onMouseEnter={handleMouseEnter}

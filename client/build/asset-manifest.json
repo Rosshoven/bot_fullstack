@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e585da6e.css",
-    "main.js": "/static/js/main.5f1ad536.js",
+    "main.css": "/static/css/main.86783290.css",
+    "main.js": "/static/js/main.32743443.js",
     "static/media/RunLive.mp3": "/static/media/RunLive.908707ef4504a548d534.mp3",
     "static/media/Blurry.mp3": "/static/media/Blurry.edb5cd2f89f49608c5f8.mp3",
     "static/media/Hey.mp3": "/static/media/Hey.5e2b7282d640ac9b6ada.mp3",
@@ -25,7 +25,6 @@
     "static/media/Rex.mp3": "/static/media/Rex.da404882648c977d0524.mp3",
     "static/media/Schubas_cover.png": "/static/media/Schubas_cover.784f771fe946099db684.png",
     "static/media/BOT_Gun.png": "/static/media/BOT_Gun.7598c2d1e3e4560480b0.png",
-    "static/media/Pic_SubT_2.png": "/static/media/Pic_SubT_2.3af0dc702c24ba576182.png",
     "static/media/Pic_SubT.png": "/static/media/Pic_SubT.c8a708db5f754102b89b.png",
     "static/media/Pic_Red_Lion.png": "/static/media/Pic_Red_Lion.33a71742841df42ba432.png",
     "static/media/BOT_Logo.png": "/static/media/BOT_Logo.e4c23763c1006e959fe9.png",
@@ -46,11 +45,11 @@
     "static/media/Co.png": "/static/media/Co.bc1a02c6ebb68b77023c.png",
     "static/media/C_A.png": "/static/media/C_A.85d8e0837128b1b90247.png",
     "index.html": "/index.html",
-    "main.e585da6e.css.map": "/static/css/main.e585da6e.css.map",
-    "main.5f1ad536.js.map": "/static/js/main.5f1ad536.js.map"
+    "main.86783290.css.map": "/static/css/main.86783290.css.map",
+    "main.32743443.js.map": "/static/js/main.32743443.js.map"
   },
   "entrypoints": [
-    "static/css/main.e585da6e.css",
-    "static/js/main.5f1ad536.js"
+    "static/css/main.86783290.css",
+    "static/js/main.32743443.js"
   ]
 }
